@@ -6,8 +6,8 @@ webhook_url = webhookurl.url
 
 webhook = DiscordWebhook(url=webhook_url)
 
-with open("goku.jpg", "rb") as f:
-    webhook.add_file(file=f.read(), filename='goku.jpg')
+#with open("goku.jpg", "rb") as f:
+#    webhook.add_file(file=f.read(), filename='goku.jpg')
 with open("goku2.png", "rb") as f:
     webhook.add_file(file=f.read(), filename='goku2.png')
 
