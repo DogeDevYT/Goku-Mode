@@ -14,17 +14,17 @@ with open("goku2.png", "rb") as f:
 # create embed object for webhook
 embed = DiscordEmbed(title='Goku Mode', description='Let\'s get Saiyan', color='fc9803')
 
-# set author
-embed.set_author(name='Raghav', url='https://github.com/DogeDevYT', icon_url='https://avatars.githubusercontent.com/u/52612977?v=4')
+# set author (not doing for aesthetics)
+#embed.set_author(name='Raghav', url='https://github.com/DogeDevYT', icon_url='https://avatars.githubusercontent.com/u/52612977?v=4')
 
 # set image
 embed.set_image(url='attachment://goku2.png')
 
-# set thumbnail
-embed.set_thumbnail(url='attachment://goku.jpg')
+# set thumbnail (not doing for aesthetics)
+#embed.set_thumbnail(url='attachment://goku.jpg')
 
-# set footer
-embed.set_footer(text='Will you accept the challenge?', icon_url='attachment://goku.jpg')
+# set footer (not doing for aesthetics)
+#embed.set_footer(text='Will you accept the challenge?', icon_url='attachment://goku.jpg')
 
 # set timestamp (default is now)
 embed.set_timestamp()
