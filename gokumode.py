@@ -1,6 +1,6 @@
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-import webhookurl
+from secret import webhookurl
 
 webhook_url = webhookurl.url
 
