@@ -4,7 +4,8 @@ from secret import webhookurl
 
 webhook_url = webhookurl.url
 
-webhook = DiscordWebhook(url=webhook_url)
+#long boi content thing a ding is role id for goku-mode
+webhook = DiscordWebhook(url=webhook_url, content="<@&1026590091889627176>")
 
 #with open("goku.jpg", "rb") as f:
 #    webhook.add_file(file=f.read(), filename='goku.jpg')
